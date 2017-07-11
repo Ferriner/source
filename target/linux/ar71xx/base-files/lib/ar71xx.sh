@@ -172,6 +172,9 @@ tplink_board_detect() {
 	"066602"*)
 		model="OMYlink OMY-X1"
 		;;
+	"3C000105")
+		model="MINIBOX_V3"
+		;;
 	"3C0001"*)
 		model="OOLITE"
 		;;
@@ -684,6 +687,9 @@ ar71xx_board_detect() {
 		;;
 	*"MiniBox V1.0")
 		name="minibox-v1"
+		;;
+	*"MiniBox V3")
+		name="minibox-v3"
 		;;
 	*MR12)
 		name="mr12"
