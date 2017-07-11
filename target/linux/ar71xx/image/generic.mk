@@ -435,6 +435,16 @@ define Device/minibox-v1
 endef
 TARGET_DEVICES += minibox-v1
 
+define Device/minibox-v3
+  $(Device/tplink-16mlzma)
+  DEVICE_TITLE := Gainstrong MiniBox V3
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2
+  BOARDNAME := MINIBOX-V3
+  DEVICE_PROFILE := MINIBOXV3
+  TPLINK_HWID := 0x3C000105
+endef
+TARGET_DEVICES += minibox-v3
+
 define Device/omy-g1
   $(Device/tplink-16mlzma)
   DEVICE_TITLE := OMYlink OMY-G1
