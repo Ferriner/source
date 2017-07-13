@@ -34,7 +34,7 @@
 #include "dev-wmac.h"
 #include "machtypes.h"
 
-#define MINIBOX_V3_GPIO_BTN_RESET	9
+#define MINIBOX_V3_GPIO_BTN_RESET	17
 #define MINIBOX_V3_GPIO_LED_SYSTEM	14
 
 #define MINIBOX_V3_KEYS_POLL_INTERVAL	20 /* msecs */
